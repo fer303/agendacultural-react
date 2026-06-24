@@ -1,11 +1,12 @@
 import React from "react";
-import ListaEvento from "./components/ListaEvento";
+import ListaEventos from "./components/ListaEventos";
+import { eventos } from "./data/eventos";
 
 function App() {
   return (
     <div>
       <h1>Agenda Cultural</h1>
-      <ListaEvento />
+      <ListaEventos eventos={eventos} />
     </div>
   );
 }
